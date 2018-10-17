@@ -1,20 +1,58 @@
-#include<bits/stdc++.h>
-using namespace std;
-main()
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+int main()
 {
-    char a[10000];
-    scanf("%s",a);
-    int l=strlen(a);
-    if(l==1)
+    char s[1000000];
+    int c1=0,c2=0,c3=0,c=0;
+    scanf("%s",s);
+    int l=strlen(s);
+    int j,i,temp=0;
+
+     for(i=0;i<l;i++)
     {
-        cout<<a<<endl;
-        return 0;
+         if(s[i]=='3')
+         {
+              c3=c3+1;
+         }
+         if(s[i]=='2')
+         {
+              c2=c2+1;
+         }
+         if(s[i]=='1')
+         {
+              c1=c1+1;
+         }
+
     }
-    sort(a,a+l);
-    int m=(l/2);
-    for(int i=m;i<l-1;i++)
+    for(j=0;j<c1;)
     {
-        cout<<a[i]<<"+";
+        printf("1");
+        j++;
+        if(j<c1 || c2!=0 || c3!=0)
+        {
+            printf("+");
+        }
     }
-    cout<<a[l-1]<<endl;
+    for(j=0;j<c2;)
+    {
+        printf("2");
+        j++;
+        if(j<c2 || c3!=0)
+        {
+            printf("+");
+        }
+    }
+    for(j=0;j<c3;)
+    {
+        printf("3");
+        j++;
+        if(j<c3 )
+        {
+            printf("+");
+        }
+    }
+
 }
+
+
