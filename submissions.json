@@ -230,6 +230,22 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF45425212": {
+    "contest_id": 630,
+    "language": "GNU C++17",
+    "path": "codeforces\\630\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Again Twenty Five!",
+    "problem_url": "https://codeforces.com/contest/630/problem/A",
+    "submission_id": "CF45425212",
+    "submission_url": "https://codeforces.com/contest/630/submission/45425212",
+    "tags": [
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Nov/08/2018 02:11"
+  },
   "CF47485534": {
     "contest_id": 236,
     "language": "GNU C++17",
