@@ -230,6 +230,22 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF55075256": {
+    "contest_id": 466,
+    "language": "GNU C++17",
+    "path": "codeforces\\466\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Cheap Travel",
+    "problem_url": "https://codeforces.com/contest/466/problem/A",
+    "submission_id": "CF55075256",
+    "submission_url": "https://codeforces.com/contest/466/submission/55075256",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Jun/04/2019 14:17"
+  },
   "CF55079385": {
     "contest_id": 581,
     "language": "GNU C++17",
