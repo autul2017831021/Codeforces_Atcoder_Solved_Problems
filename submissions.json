@@ -230,6 +230,24 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF67504200": {
+    "contest_id": 17,
+    "language": "GNU C++17",
+    "path": "codeforces\\17\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Noldbach problem",
+    "problem_url": "https://codeforces.com/contest/17/problem/A",
+    "submission_id": "CF67504200",
+    "submission_url": "https://codeforces.com/contest/17/submission/67504200",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "Dec/24/2019 12:26"
+  },
   "CF67523514": {
     "contest_id": 1243,
     "language": "GNU C++17",
