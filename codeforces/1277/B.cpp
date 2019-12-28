@@ -8,7 +8,7 @@ main()
     {
         int n,a,c=0,h,b;
         cin>>n;
-        set<int,greater <int>>s;
+        set<int>s;
         vector<int>v;
         for(int i=0;i<n;i++)
         {
@@ -22,8 +22,7 @@ main()
         {
             if(s.size()==0)
                 break;
-           b=*s.begin();
-           //cout<<"b:"<<b<<endl;
+           b=*s.rbegin();
            h=b/2;
            if(h%2==0)
             s.insert(h);
@@ -32,7 +31,6 @@ main()
            }
            s.erase(b);
            c++;
-
         }
         cout<<c<<endl;
         c=0;
