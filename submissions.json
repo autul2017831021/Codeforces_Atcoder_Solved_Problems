@@ -2874,6 +2874,22 @@
     ],
     "timestamp": "Jan/04/2020 21:48"
   },
+  "CF68227531": {
+    "contest_id": 1279,
+    "language": "GNU C++17",
+    "path": "codeforces\\1279\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "New Year Garland",
+    "problem_url": "https://codeforces.com/contest/1279/problem/A",
+    "submission_id": "CF68227531",
+    "submission_url": "https://codeforces.com/contest/1279/submission/68227531",
+    "tags": [
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jan/05/2020 13:47"
+  },
   "CF68239961": {
     "contest_id": 136,
     "language": "GNU C++17",
