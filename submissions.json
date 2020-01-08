@@ -3111,6 +3111,23 @@
     ],
     "timestamp": "Jan/08/2020 21:10"
   },
+  "CF68408894": {
+    "contest_id": 1228,
+    "language": "GNU C++17",
+    "path": "codeforces\\1228\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Distinct Digits",
+    "problem_url": "https://codeforces.com/contest/1228/problem/A",
+    "submission_id": "CF68408894",
+    "submission_url": "https://codeforces.com/contest/1228/submission/68408894",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jan/08/2020 22:10"
+  },
   "CF68431070": {
     "contest_id": 492,
     "language": "GNU C++17",
