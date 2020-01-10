@@ -4,19 +4,13 @@ main()
 {
     int n,m,color=0;
     cin>>n>>m;
-    char c[1001][1001];
     for(int i=0;i<n;i++)
     {
         for(int j=0;j<m;j++)
         {
-            cin>>c[i][j];
-        }
-    }
-    for(int i=0;i<n;i++)
-    {
-        for(int j=0;j<m;j++)
-        {
-            if(c[i][j]=='C' || c[i][j]=='M' || c[i][j]=='Y')
+            char x,y;
+            cin>>x;
+            if(x=='C' || x=='M' || x=='Y' || y=='C' || y=='M' || y=='Y' )
                 color++;
         }
     }
