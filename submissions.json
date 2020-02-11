@@ -3667,6 +3667,24 @@
     ],
     "timestamp": "Feb/10/2020 11:58"
   },
+  "CF70769173": {
+    "contest_id": 770,
+    "language": "GNU C++17",
+    "path": "codeforces\\770\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Maximize Sum of Digits",
+    "problem_url": "https://codeforces.com/contest/770/problem/B",
+    "submission_id": "CF70769173",
+    "submission_url": "https://codeforces.com/contest/770/submission/70769173",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Feb/11/2020 12:18"
+  },
   "CF70793568": {
     "contest_id": 1238,
     "language": "GNU C++17",
