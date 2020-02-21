@@ -230,6 +230,23 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF71574587": {
+    "contest_id": 1132,
+    "language": "GNU C++17",
+    "path": "codeforces\\1132\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Regular Bracket Sequence",
+    "problem_url": "https://codeforces.com/contest/1132/problem/A",
+    "submission_id": "CF71574587",
+    "submission_url": "https://codeforces.com/contest/1132/submission/71574587",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Feb/22/2020 02:32"
+  },
   "CF71575143": {
     "contest_id": 1244,
     "language": "GNU C++17",
