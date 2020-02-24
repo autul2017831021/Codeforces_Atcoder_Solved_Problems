@@ -230,6 +230,22 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF71822218": {
+    "contest_id": 977,
+    "language": "GNU C++17",
+    "path": "codeforces\\977\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Less or Equal",
+    "problem_url": "https://codeforces.com/contest/977/problem/C",
+    "submission_id": "CF71822218",
+    "submission_url": "https://codeforces.com/contest/977/submission/71822218",
+    "tags": [
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Feb/25/2020 02:15"
+  },
   "CF71851555": {
     "contest_id": 977,
     "language": "GNU C++17",
