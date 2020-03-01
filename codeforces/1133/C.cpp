@@ -25,7 +25,7 @@ main()
                 break;
             }
         }
-        k=j+1;
+        k=j;
     }
     cout<<m<<endl;
 }
