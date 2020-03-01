@@ -10,22 +10,15 @@ main()
     {
         cin>>v[i];
     }
-    ll k=0,j;
+    ll j=0;
     sort(v.rbegin(),v.rend());
     for(ll i=0;i<n;i++)
     {
-        for(j=k;j<n;j++)
-        {
-            if(v[i]-v[j]<=5)
-            {
-                m=max(m,j-i+1);
-            }
-            else
-            {
-                break;
-            }
-        }
-        k=j;
+       while(j<n && v[i]-v[j]<=5)
+       {
+           j++;
+           m=max(m,j-i);
+       }
     }
     cout<<m<<endl;
 }
