@@ -1,5 +1,3 @@
-/// amar baler problem
-/// shonar problem diso tumi
 #include<bits/stdc++.h>
 using namespace std;
 typedef double ll;
@@ -9,8 +7,6 @@ main()
     double d;
     cin>>n;
     vector<int>v,w;
-    vector<double>x;
-    map<double,int>mp;
     for(int i=0;i<n;i++)
     {
         int o;cin>>o;
@@ -21,6 +17,8 @@ main()
         int o;cin>>o;
         w.push_back(o);
     }
+    vector<double>x;
+    map<double,int>mp;
     for(int i=0;i<n;i++)
     {
         if(v[i]==0)
