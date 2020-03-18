@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-void primefactors(long long n,long long h,long long k)
+void primefactors(int n,int k)
 {
     vector<int>v;
     while(n%2==0)
@@ -8,7 +8,7 @@ void primefactors(long long n,long long h,long long k)
         v.push_back(2);
         n/=2;
     }
-    for(int i=3;i<=h;i=i+2)
+    for(int i=3;i<=sqrt(n);i=i+2)
     {
         while(n%i==0)
         {
@@ -19,7 +19,8 @@ void primefactors(long long n,long long h,long long k)
     if(n>2)
         v.push_back(n);
     int l=v.size();
-    /*
+    //cout<<l<<endl;
+    /*/
     for(int i=0;i<l;i++)
         cout<<v[i]<<" ";
     cout<<endl;
@@ -49,7 +50,10 @@ void primefactors(long long n,long long h,long long k)
 }
 int main()
 {
-    long long n,k;cin>>n>>k;long long h=sqrt(n);
-    primefactors(n,h,k);
+    int n,k;cin>>n>>k;
+    primefactors(n,k);
     return 0;
 }
+
+//66049 2
+
