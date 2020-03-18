@@ -230,6 +230,24 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF73597494": {
+    "contest_id": 797,
+    "language": "GNU C++14",
+    "path": "codeforces\\797\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "k-Factorization",
+    "problem_url": "https://codeforces.com/contest/797/problem/A",
+    "submission_id": "CF73597494",
+    "submission_url": "https://codeforces.com/contest/797/submission/73597494",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Mar/19/2020 00:02"
+  },
   "CF73632899": {
     "contest_id": 245,
     "language": "GNU C++14",
