@@ -230,6 +230,22 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF73650066": {
+    "contest_id": 658,
+    "language": "GNU C++14",
+    "path": "codeforces\\658\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bear and Reverse Radewoosh",
+    "problem_url": "https://codeforces.com/contest/658/problem/A",
+    "submission_id": "CF73650066",
+    "submission_url": "https://codeforces.com/contest/658/submission/73650066",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/19/2020 17:58"
+  },
   "CF73654123": {
     "contest_id": 721,
     "language": "GNU C++14",
