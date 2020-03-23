@@ -9,15 +9,14 @@ main()
     {
         ll a,b,s=0;
         cin>>a>>b;
-        if(b*b>a)
-            cout<<"NO"<<endl;
-        else
+        s=sqrt(a);
+        if(s>=b)
         {
-            if(a%2==b%2)
-                cout<<"YES"<<endl;
-            else
-                cout<<"NO"<<endl;
+           if((a+b)%2==0) cout<<"YES"<<endl;
+           else
+            cout<<"NO"<<endl;
         }
+        else
+            cout<<"NO"<<endl;
     }
 }
-
