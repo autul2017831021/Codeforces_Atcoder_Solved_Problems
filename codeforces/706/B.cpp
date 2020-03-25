@@ -1,21 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
-long long int BS(ll a[],ll x,ll n)
-{
-    ll l,r;
-    l=1;
-    r=n;
-        while(r>=l)
-        {
-            ll mid=(l+r)/2;
-            if(a[mid]>x)
-                r=mid-1;
-            else
-                l=mid+1;
-        }
-        return l;
-}
 main()
 {
     ll n,q;
@@ -31,7 +16,17 @@ main()
     for(int i=1;i<=q;i++)
     {
         ll x;cin>>x;
-        ll l=BS(a,x,n);
+        ll l,r;
+        l=1;
+        r=n;
+        while(r>=l)
+        {
+            ll mid=(l+r)/2;
+            if(a[mid]>x)
+                r=mid-1;
+            else
+                l=mid+1;
+        }
         cout<<l-1<<endl;
     }
 
