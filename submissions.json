@@ -230,6 +230,23 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF74395736": {
+    "contest_id": 1133,
+    "language": "GNU C++14",
+    "path": "codeforces\\1133\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Preparation for International Women's Day",
+    "problem_url": "https://codeforces.com/contest/1133/problem/B",
+    "submission_id": "CF74395736",
+    "submission_url": "https://codeforces.com/contest/1133/submission/74395736",
+    "tags": [
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Mar/26/2020 20:17"
+  },
   "CF74530209": {
     "contest_id": 1133,
     "language": "GNU C++14",
