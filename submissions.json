@@ -230,6 +230,22 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF74589316": {
+    "contest_id": 784,
+    "language": "GNU C++14",
+    "path": "codeforces\\784\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Kids' Riddle",
+    "problem_url": "https://codeforces.com/contest/784/problem/B",
+    "submission_id": "CF74589316",
+    "submission_url": "https://codeforces.com/contest/784/submission/74589316",
+    "tags": [
+      "*special problem",
+      "*2000"
+    ],
+    "timestamp": "Mar/28/2020 00:23"
+  },
   "CF74592246": {
     "contest_id": 784,
     "language": "GNU C++14",
