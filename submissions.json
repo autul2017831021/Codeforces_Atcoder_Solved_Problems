@@ -230,6 +230,22 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF74752659": {
+    "contest_id": 588,
+    "language": "GNU C++14",
+    "path": "codeforces\\588\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Duff in Love",
+    "problem_url": "https://codeforces.com/contest/588/problem/B",
+    "submission_id": "CF74752659",
+    "submission_url": "https://codeforces.com/contest/588/submission/74752659",
+    "tags": [
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Mar/29/2020 23:18"
+  },
   "CF74755453": {
     "contest_id": 630,
     "language": "GNU C++14",
