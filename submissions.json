@@ -5861,6 +5861,23 @@
     ],
     "timestamp": "Mar/30/2020 16:10"
   },
+  "CF74848236": {
+    "contest_id": 626,
+    "language": "GNU C++14",
+    "path": "codeforces\\626\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Robot Sequence",
+    "problem_url": "https://codeforces.com/contest/626/problem/A",
+    "submission_id": "CF74848236",
+    "submission_url": "https://codeforces.com/contest/626/submission/74848236",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Mar/30/2020 22:43"
+  },
   "CF74849129": {
     "contest_id": 186,
     "language": "GNU C++14",
