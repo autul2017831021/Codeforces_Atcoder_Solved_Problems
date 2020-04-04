@@ -37,7 +37,21 @@ main()
             ll left=l+1;
             ll right=r-1;
             //cout<<"pos="<<pos<<endl<<"left="<<left<<endl<<"right="<<right<<endl;
-            cout<<min((right-pos),(pos-left))<<endl;
+            if(pos==0)
+            {
+                //cout<<"prothom"<<endl;
+                cout<<min((0-left),(right-0))<<endl;
+            }
+            else if(pos<0)
+            {
+                //cout<<"ditio"<<endl;
+                cout<<min((right-pos),(pos-left))<<endl;
+            }
+            else if(pos>0)
+            {
+                //cout<<"tritio"<<endl;
+                cout<<min((right-pos),(pos-left))<<endl;
+            }
         }
     }
 }
