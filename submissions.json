@@ -230,6 +230,24 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF75509524": {
+    "contest_id": 581,
+    "language": "GNU C++14",
+    "path": "codeforces\\581\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Developing Skills",
+    "problem_url": "https://codeforces.com/contest/581/problem/C",
+    "submission_id": "CF75509524",
+    "submission_url": "https://codeforces.com/contest/581/submission/75509524",
+    "tags": [
+      "implementation",
+      "math",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Apr/04/2020 23:41"
+  },
   "CF75516454": {
     "contest_id": 863,
     "language": "GNU C++14",
