@@ -6117,6 +6117,23 @@
     ],
     "timestamp": "Apr/05/2020 22:06"
   },
+  "CF75652519": {
+    "contest_id": 1144,
+    "language": "GNU C++14",
+    "path": "codeforces\\1144\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Equalize Them All",
+    "problem_url": "https://codeforces.com/contest/1144/problem/D",
+    "submission_id": "CF75652519",
+    "submission_url": "https://codeforces.com/contest/1144/submission/75652519",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Apr/06/2020 17:52"
+  },
   "CF75672273": {
     "contest_id": 1144,
     "language": "GNU C++14",
