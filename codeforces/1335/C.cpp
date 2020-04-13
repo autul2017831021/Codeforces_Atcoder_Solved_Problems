@@ -18,9 +18,7 @@ main()
         ll n;
         cin>>n;
         map<ll,ll>m;
-        map<ll,ll>::iterator it;
-        ll d=0,st=0;
-        vector<ll>v;
+        ll d=0;
         set<long long>s;
         for(int i=0;i<n;i++)
         {
@@ -28,6 +26,7 @@ main()
             cin>>x;
             m[x]++;
             s.insert(x);
+            d=max(d,m[x]);
         }
         if(n==1)
         {
@@ -35,27 +34,16 @@ main()
             continue;
         }
         ll l=s.sz;
-        for(it=m.bg;it!=m.en;it++)
-        {
-            if((*it).second==1)
-            {
-                d++;
-            }
-            else if((*it).second>1)
-            {
-                v.pb((*it).second);
-            }
-        }
-        if(v.sz==0)
+        if(d==0)
         {
             cout<<"1"<<endl;
             continue;
         }
-        sort(v.rbg,v.ren);
         ll xx,yy;
-        xx=min(l-1,v[0]);
-        yy=min(l,v[0]-1);
+        xx=min(l-1,d);
+        yy=min(l,d-1);
         cout<<max(xx,yy)<<endl;
     }
 }
+
 
