@@ -230,6 +230,23 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF76958812": {
+    "contest_id": 717,
+    "language": "GNU C++14",
+    "path": "codeforces\\717\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Potions Homework",
+    "problem_url": "https://codeforces.com/contest/717/problem/C",
+    "submission_id": "CF76958812",
+    "submission_url": "https://codeforces.com/contest/717/submission/76958812",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Apr/16/2020 16:40"
+  },
   "CF76964086": {
     "contest_id": 1183,
     "language": "GNU C++14",
