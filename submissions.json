@@ -6758,6 +6758,23 @@
     ],
     "timestamp": "Apr/19/2020 16:38"
   },
+  "CF77274919": {
+    "contest_id": 630,
+    "language": "GNU C++14",
+    "path": "codeforces\\630\\H.cpp",
+    "platform": "Codeforces",
+    "problem_index": "H",
+    "problem_name": "Benches",
+    "problem_url": "https://codeforces.com/contest/630/problem/H",
+    "submission_id": "CF77274919",
+    "submission_url": "https://codeforces.com/contest/630/submission/77274919",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Apr/19/2020 18:41"
+  },
   "CF77277959": {
     "contest_id": 630,
     "language": "GNU C++14",
