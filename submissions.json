@@ -6774,6 +6774,22 @@
     ],
     "timestamp": "Apr/19/2020 19:18"
   },
+  "CF77292768": {
+    "contest_id": 53,
+    "language": "GNU C++14",
+    "path": "codeforces\\53\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Autocomplete",
+    "problem_url": "https://codeforces.com/contest/53/problem/A",
+    "submission_id": "CF77292768",
+    "submission_url": "https://codeforces.com/contest/53/submission/77292768",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Apr/19/2020 21:58"
+  },
   "CF77301393": {
     "contest_id": 208,
     "language": "GNU C++14",
