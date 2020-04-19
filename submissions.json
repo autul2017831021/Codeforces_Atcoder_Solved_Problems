@@ -6808,6 +6808,22 @@
     ],
     "timestamp": "Apr/20/2020 00:42"
   },
+  "CF77309315": {
+    "contest_id": 53,
+    "language": "GNU C++14",
+    "path": "codeforces\\53\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Physical Education",
+    "problem_url": "https://codeforces.com/contest/53/problem/D",
+    "submission_id": "CF77309315",
+    "submission_url": "https://codeforces.com/contest/53/submission/77309315",
+    "tags": [
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Apr/20/2020 01:54"
+  },
   "CF77339621": {
     "contest_id": 774,
     "language": "GNU C++14",
