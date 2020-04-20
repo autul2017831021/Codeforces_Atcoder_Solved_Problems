@@ -6893,6 +6893,24 @@
     ],
     "timestamp": "Apr/21/2020 02:19"
   },
+  "CF77408969": {
+    "contest_id": 774,
+    "language": "GNU C11",
+    "path": "codeforces\\774\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Lie or Truth",
+    "problem_url": "https://codeforces.com/contest/774/problem/D",
+    "submission_id": "CF77408969",
+    "submission_url": "https://codeforces.com/contest/774/submission/77408969",
+    "tags": [
+      "*special problem",
+      "constructive algorithms",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Apr/21/2020 02:27"
+  },
   "CF77409045": {
     "contest_id": 774,
     "language": "GNU C++14",
