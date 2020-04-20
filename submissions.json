@@ -230,6 +230,25 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF77409045": {
+    "contest_id": 774,
+    "language": "GNU C++14",
+    "path": "codeforces\\774\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Maximum Number",
+    "problem_url": "https://codeforces.com/contest/774/problem/C",
+    "submission_id": "CF77409045",
+    "submission_url": "https://codeforces.com/contest/774/submission/77409045",
+    "tags": [
+      "*special problem",
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Apr/21/2020 02:29"
+  },
   "CF77462488": {
     "contest_id": 137,
     "language": "GNU C++14",
