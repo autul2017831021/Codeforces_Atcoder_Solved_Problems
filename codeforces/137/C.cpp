@@ -25,14 +25,14 @@ main()
         cin>>x>>y;
         v.pb({x,y});
     }
-    sort(v.rbg,v.ren,bal);
+    sort(v.bg,v.en);
     l=v[0].F;
     r=v[0].S;
     for(int i=1;i<n;i++)
     {
         if(l<v[i].F && r>v[i].S)
             c++;
-        if(l>v[i].F)
+        if(r<v[i].S)
         {
             l=v[i].F;
             r=v[i].S;
