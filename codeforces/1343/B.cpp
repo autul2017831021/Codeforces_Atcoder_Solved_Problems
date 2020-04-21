@@ -11,7 +11,9 @@ typedef double dl;
 #define r0 return 0
 #define F first
 #define S second
-#define in -9999999999
+bool bal(pair<ll,ll>a,pair<ll,ll>b){
+    return b.S > a.S;
+}
 main()
 {
     int test;
@@ -20,38 +22,30 @@ main()
     {
         ll n;
         cin>>n;
-        ll h=n/2;
         vector<ll>v,w;
-        if(h%2)
+        if((n/2)%2==1)
         {
             cout<<"NO"<<endl;
-            continue;
         }
-        ll o=0,e=0;
-        cout<<"YES"<<endl;
-        for(int i=1;i<=n;i++)
+        else
         {
-            if(i%2)
+            ll shona=0 ;
+            for (int i=2;i<=n;i=i+2)
             {
                 w.pb(i);
-                if(i<n-1)
-                o=o+i;
+                shona+=i ;
             }
-            else
-            {
-                e=e+i;
-                v.pb(i);
+            ll baal=0 ;
+            for (int i=1;i<=n-2;i=i+2) {
+                w.pb(i);
+                baal+=i ;
             }
+            w.pb(shona-baal);
+            cout<<"YES"<<endl;
+            for(int i=0;i<w.sz;i++)
+               cout<<w[i]<<" " ;
+            cout << endl;
         }
-        w[w.sz-1]=e-o;
-        for(int i=0;i<v.sz;i++)
-        {
-            cout<<v[i]<<" ";
-        }
-        for(int i=0;i<w.sz;i++)
-        {
-            cout<<w[i]<<" ";
-        }
-        cout<<endl;
     }
+
 }
