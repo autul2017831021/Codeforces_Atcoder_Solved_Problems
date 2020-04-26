@@ -7068,6 +7068,23 @@
     ],
     "timestamp": "Apr/26/2020 04:44"
   },
+  "CF78238003": {
+    "contest_id": 802,
+    "language": "GNU C++14",
+    "path": "codeforces\\802\\G.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Fake News (easy)",
+    "problem_url": "https://codeforces.com/contest/802/problem/G",
+    "submission_id": "CF78238003",
+    "submission_url": "https://codeforces.com/contest/802/submission/78238003",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Apr/27/2020 03:15"
+  },
   "CF78238490": {
     "contest_id": 320,
     "language": "GNU C++14",
