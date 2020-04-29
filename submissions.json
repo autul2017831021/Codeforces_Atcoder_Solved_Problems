@@ -7192,6 +7192,23 @@
     ],
     "timestamp": "Apr/29/2020 21:33"
   },
+  "CF78508280": {
+    "contest_id": 628,
+    "language": "GNU C++17",
+    "path": "codeforces\\628\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Bear and String Distance",
+    "problem_url": "https://codeforces.com/contest/628/problem/C",
+    "submission_id": "CF78508280",
+    "submission_url": "https://codeforces.com/contest/628/submission/78508280",
+    "tags": [
+      "greedy",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Apr/30/2020 00:35"
+  },
   "CF78517169": {
     "contest_id": 122,
     "language": "GNU C++17",
