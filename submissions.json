@@ -7209,6 +7209,22 @@
     ],
     "timestamp": "Apr/30/2020 02:53"
   },
+  "CF78574980": {
+    "contest_id": 45,
+    "language": "GNU C++17",
+    "path": "codeforces\\45\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Codecraft III",
+    "problem_url": "https://codeforces.com/contest/45/problem/A",
+    "submission_id": "CF78574980",
+    "submission_url": "https://codeforces.com/contest/45/submission/78574980",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Apr/30/2020 20:15"
+  },
   "CF78576736": {
     "contest_id": 1324,
     "language": "GNU C++17",
