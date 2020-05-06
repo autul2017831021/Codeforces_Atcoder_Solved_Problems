@@ -7331,6 +7331,23 @@
     ],
     "timestamp": "May/05/2020 22:56"
   },
+  "CF79135853": {
+    "contest_id": 127,
+    "language": "GNU C++17",
+    "path": "codeforces\\127\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Hot Bath",
+    "problem_url": "https://codeforces.com/contest/127/problem/C",
+    "submission_id": "CF79135853",
+    "submission_url": "https://codeforces.com/contest/127/submission/79135853",
+    "tags": [
+      "binary search",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "May/06/2020 17:47"
+  },
   "CF79137160": {
     "contest_id": 126,
     "language": "GNU C++17",
