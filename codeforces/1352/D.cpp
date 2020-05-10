@@ -64,9 +64,9 @@ void kor()
     }
     for(int i=0;i<n;i++)
     {
-        m++;
         if(f)
         {
+           m++;
            ta=0;
            f=0;ll bal=0;
            if(i==0)
@@ -98,6 +98,7 @@ void kor()
         }
         else
         {
+           m++;
            tb=0;
            f=1;ll bal=0;
            for(int ii=k-1;ii>j;ii--)
