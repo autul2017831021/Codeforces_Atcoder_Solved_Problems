@@ -230,6 +230,22 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF79682042": {
+    "contest_id": 20,
+    "language": "GNU C++17",
+    "path": "codeforces\\20\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Equation",
+    "problem_url": "https://codeforces.com/contest/20/problem/B",
+    "submission_id": "CF79682042",
+    "submission_url": "https://codeforces.com/contest/20/submission/79682042",
+    "tags": [
+      "math",
+      "*2000"
+    ],
+    "timestamp": "May/11/2020 00:34"
+  },
   "CF79686853": {
     "contest_id": 1352,
     "language": "GNU C++17",
