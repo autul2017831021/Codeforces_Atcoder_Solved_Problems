@@ -230,6 +230,24 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF79758594": {
+    "contest_id": 940,
+    "language": "GNU C++17",
+    "path": "codeforces\\940\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Phone Numbers",
+    "problem_url": "https://codeforces.com/contest/940/problem/C",
+    "submission_id": "CF79758594",
+    "submission_url": "https://codeforces.com/contest/940/submission/79758594",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "May/11/2020 21:09"
+  },
   "CF79764029": {
     "contest_id": 940,
     "language": "GNU C++17",
