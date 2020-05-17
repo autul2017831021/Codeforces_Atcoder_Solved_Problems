@@ -230,6 +230,25 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF80551643": {
+    "contest_id": 1266,
+    "language": "GNU C++17",
+    "path": "codeforces\\1266\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Diverse Matrix",
+    "problem_url": "https://codeforces.com/contest/1266/problem/C",
+    "submission_id": "CF80551643",
+    "submission_url": "https://codeforces.com/contest/1266/submission/80551643",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "May/18/2020 01:57"
+  },
   "CF80628406": {
     "contest_id": 1355,
     "language": "GNU C++17",
