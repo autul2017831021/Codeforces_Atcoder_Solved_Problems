@@ -230,6 +230,22 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF81890745": {
+    "contest_id": 11,
+    "language": "GNU C++17",
+    "path": "codeforces\\11\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Jumping Jack",
+    "problem_url": "https://codeforces.com/contest/11/problem/B",
+    "submission_id": "CF81890745",
+    "submission_url": "https://codeforces.com/contest/11/submission/81890745",
+    "tags": [
+      "math",
+      "*1600"
+    ],
+    "timestamp": "May/29/2020 19:48"
+  },
   "CF81985115": {
     "contest_id": 1355,
     "language": "GNU C++17",
