@@ -230,6 +230,23 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF81986009": {
+    "contest_id": 13,
+    "language": "GNU C++17",
+    "path": "codeforces\\13\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Numbers",
+    "problem_url": "https://codeforces.com/contest/13/problem/A",
+    "submission_id": "CF81986009",
+    "submission_url": "https://codeforces.com/contest/13/submission/81986009",
+    "tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "May/30/2020 23:27"
+  },
   "CF82068483": {
     "contest_id": 1363,
     "language": "GNU C++17",
