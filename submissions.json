@@ -230,6 +230,24 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF82405627": {
+    "contest_id": 172,
+    "language": "GNU C++17",
+    "path": "codeforces\\172\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Phone Code",
+    "problem_url": "https://codeforces.com/contest/172/problem/A",
+    "submission_id": "CF82405627",
+    "submission_url": "https://codeforces.com/contest/172/submission/82405627",
+    "tags": [
+      "*special problem",
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jun/03/2020 20:25"
+  },
   "CF82416026": {
     "contest_id": 479,
     "language": "GNU C++17",
