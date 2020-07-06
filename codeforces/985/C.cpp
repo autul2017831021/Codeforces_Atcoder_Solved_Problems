@@ -92,16 +92,28 @@ void kor(vc v,ll n,ll k,ll l)
         if(n==0){
             break;
         }
-    }if(n!=0){ans=0;}
+    }
     de ans;nl;
 }
 main()
 {
     ll n,k,l;cin>>n>>k>>l;
-    vc v;
+    vc v;v.pb(0);
     for(int i=0;i<n*k;i++)
     {
         ll x;ne x;v.pb(x);
     }sort(v.bg,v.en);
+    if(k==1){
+        ll bal=accumulate(v.bg,v.en,0LL);
+        if(v[v.sz-1]-v[1]>l)
+            bal=0;
+        de bal;r0
+    }
+    for(int i=1;i<=n;i++){
+        if(v[i]-v[1]>l){
+            de "0";r0
+        }
+    }
+    v.erase(v.bg);
     kor(v,n,k,l);
 }
