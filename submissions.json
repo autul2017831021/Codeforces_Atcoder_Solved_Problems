@@ -230,6 +230,25 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF86380924": {
+    "contest_id": 1012,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1012\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Photo of The Sky",
+    "problem_url": "https://codeforces.com/contest/1012/problem/A",
+    "submission_id": "CF86380924",
+    "submission_url": "https://codeforces.com/contest/1012/submission/86380924",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Jul/10/2020 02:11"
+  },
   "CF86380930": {
     "contest_id": 1013,
     "language": "GNU C++17 (64)",
