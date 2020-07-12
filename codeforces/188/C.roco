@@ -1,0 +1,17 @@
+iin [0]
+iin [1] 
+set [2] 1   
+mul [4] [0] [1] 
+
+co main{
+    eq [3] [2] 0
+    if [3] ac
+    mod [2] [0] [1]
+    set [0] [1]
+    set [1] [2]
+}
+ca main
+div [0] [4][0]
+iout [0]
+
+ac

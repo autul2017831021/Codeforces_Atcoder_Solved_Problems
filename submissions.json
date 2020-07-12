@@ -230,6 +230,24 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF86630736": {
+    "contest_id": 188,
+    "language": "Roco",
+    "path": "codeforces\\188\\C.roco",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "LCM",
+    "problem_url": "https://codeforces.com/contest/188/problem/C",
+    "submission_id": "CF86630736",
+    "submission_url": "https://codeforces.com/contest/188/submission/86630736",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Jul/12/2020 13:50"
+  },
   "CF86682757": {
     "contest_id": 1380,
     "language": "GNU C++17 (64)",
