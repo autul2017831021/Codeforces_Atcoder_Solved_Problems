@@ -76,6 +76,27 @@ ll lcm(ll a,ll b)
 {
     return (a*b)/(__gcd(a,b));
 }
+/*
+ll lb(vc a,ll l,ll r,ll x)
+{
+    ll mid,z=l-1;
+    ll in=z;
+    ///de  "number = ";de x;nl;
+    while(r>=l){
+        mid=(l+r)/2;
+        if(){
+            l=mid+1;
+            in=mid;
+        }
+        else{
+            r=mid-1;
+            in=mid;
+        }
+    }
+    return in;
+}
+*/
+
 int main()
 {
     int tt;ne tt;
@@ -86,18 +107,26 @@ int main()
         ne s;
         ne t;
         vc v;
-        for(int i=1;i<n;i++){
-            if(s[i]!=s[i-1]){
-                v.pb(i);
-                if(s[0]=='0')s[0]='1';
-                else{s[0]='0';}
+        int i=n-1;
+        while(i>=0)
+        {
+            if ( s[i] == t[i]) {
+                i-- ;
             }
-        }
-        for(int i=n-1;i>=0;i--){
-            if(s[0]!=t[i]){
-                v.pb(i+1);
-                if(s[0]=='0')s[0]='1';
-                else{s[0]='0';}
+            else {
+                if ( s[0] != t[i] ) {
+                    for(int j=0;j<=i;j++) {
+                        if (s[j] == '0') s[j] = '1' ;
+                        else s[j] = '0' ;
+                    }
+                    reverse(s.begin(),s.begin()+i+1);
+                    v.pb(i+1);
+                }
+                else {
+                       v.pb(1);
+                       if (s[0] == '0') s[0] = '1' ;
+                       else s[0] = '0' ;
+                }
             }
         }
         de v.sz;sp;
@@ -105,5 +134,5 @@ int main()
             de v[i];sp;
         }nl;
     }
-}
 
+}
