@@ -78,7 +78,7 @@ ll lcm(ll a,ll b)
 main()
 {
     int t;ne t;
-    vector<pair<string,int> >v;
+    vector<pair<string,int> >v[30];
     while(t--)
     {
         string s;
@@ -87,14 +87,36 @@ main()
         for(int i=0;i<60-l;i++){
             s.pb(s[i%l]);
         }
-        v.pb({s,l});
+        v[s[0]-'a'].pb({s,l});
     }
-    sort(v.bg,v.en);
-    for(int i=0;i<v.sz;i++)
+    for(int i=0;i<26;i++)
     {
-        string s=v[i].F;
-        for(int j=0;j<v[i].S;j++){
-            de s[j];
+        if(v[i].sz==0)continue;
+        sort(v[i].bg,v[i].en);
+        int koto=0;
+        vector<int>a[60000];
+        vector<string>bal;
+        string s=v[i][0].F;
+        bal.pb(s);
+        a[koto].pb(v[i][0].S);
+        for(int j=1;j<v[i].sz;j++){
+            if(v[i][j].F==s){
+                a[koto].pb(v[i][j].S);
+                continue;
+            }
+            koto++;
+            s=v[i][j].F;
+            bal.pb(s);
+            a[koto].pb(v[i][j].S);
+        }
+        for(int j=0;j<bal.sz;j++)
+        {
+            s=bal[j];
+            sort(a[j].rbg,a[j].ren);
+            for(int k=0;k<a[j].sz;k++){
+                string ss=s.substr(0,a[j][k]);
+                de ss;
+            }
         }
     }
 }
