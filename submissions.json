@@ -230,6 +230,22 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF89494270": {
+    "contest_id": 660,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\660\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Seating On Bus",
+    "problem_url": "https://codeforces.com/contest/660/problem/B",
+    "submission_id": "CF89494270",
+    "submission_url": "https://codeforces.com/contest/660/submission/89494270",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Aug/10/2020 14:39"
+  },
   "CF89519463": {
     "contest_id": 632,
     "language": "GNU C++17",
