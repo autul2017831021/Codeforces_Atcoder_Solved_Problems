@@ -230,6 +230,24 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF90402598": {
+    "contest_id": 1062,
+    "language": "GNU C++17",
+    "path": "codeforces\\1062\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Banh-mi",
+    "problem_url": "https://codeforces.com/contest/1062/problem/C",
+    "submission_id": "CF90402598",
+    "submission_url": "https://codeforces.com/contest/1062/submission/90402598",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Aug/19/2020 21:34"
+  },
   "CF90417297": {
     "contest_id": 1209,
     "language": "GNU C++17",
