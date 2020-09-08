@@ -77,16 +77,12 @@ ll lcm(ll a,ll b)
 }
 const int MX=10000001;
 ll v[MX+10]={0};
-ll w[MX+10]={0};
 void onami(ll M)
 {
     for(int i=3;i<=M;i=i+2){
         if(v[i]==0){
-            for(ll j=i+i;j<=M;j=j+i){
-                if(v[j]==0)
-                    v[j]=i;
-                else if(w[j]==0)
-                    w[j]=i;
+            for(ll j=i;j<=M;j=j+i){
+                v[j]=i;
             }
         }
     }
@@ -103,13 +99,16 @@ int main()
         {
             while(x%2==0){x/=2;}
             if(x!=1){
-                a.pb(x);b.pb(2);
+                a.pb(x);b.pb(y/x);
             }
             else{a.pb(-1);b.pb(-1);}
         }
         else{
-            if(min(v[x],w[x])==0){a.pb(-1);b.pb(-1);}
-            else {a.pb(v[x]);b.pb(w[x]);}
+            while(y%v[x]==0){
+                y/=v[x];
+            }
+            if(y==1){a.pb(-1);b.pb(-1);}
+            else {a.pb(x/y);b.pb(y);}
         }
     }
     for(int i=0;i<n;i++){
