@@ -230,6 +230,22 @@
     ],
     "timestamp": "Jan/12/2021 19:20"
   },
+  "CF94514671": {
+    "contest_id": 1417,
+    "language": "GNU C++17",
+    "path": "codeforces\\1417\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "k-Amazing Numbers",
+    "problem_url": "https://codeforces.com/contest/1417/problem/C",
+    "submission_id": "CF94514671",
+    "submission_url": "https://codeforces.com/contest/1417/submission/94514671",
+    "tags": [
+      "data structures",
+      "*1500"
+    ],
+    "timestamp": "Oct/03/2020 00:07"
+  },
   "CF94672222": {
     "contest_id": 1422,
     "language": "GNU C++17",
